@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/jaeestee/tapis-ui/static/css/main.79706e10.chunk.css",
+    "main.js": "/jaeestee/tapis-ui/static/js/main.805474c1.chunk.js",
+    "main.js.map": "/jaeestee/tapis-ui/static/js/main.805474c1.chunk.js.map",
+    "runtime-main.js": "/jaeestee/tapis-ui/static/js/runtime-main.dddde5aa.js",
+    "runtime-main.js.map": "/jaeestee/tapis-ui/static/js/runtime-main.dddde5aa.js.map",
+    "static/css/2.d5e620ed.chunk.css": "/jaeestee/tapis-ui/static/css/2.d5e620ed.chunk.css",
+    "static/js/2.2be6086f.chunk.js": "/jaeestee/tapis-ui/static/js/2.2be6086f.chunk.js",
+    "static/js/2.2be6086f.chunk.js.map": "/jaeestee/tapis-ui/static/js/2.2be6086f.chunk.js.map",
+    "static/js/3.3a439a2c.chunk.js": "/jaeestee/tapis-ui/static/js/3.3a439a2c.chunk.js",
+    "static/js/3.3a439a2c.chunk.js.map": "/jaeestee/tapis-ui/static/js/3.3a439a2c.chunk.js.map",
+    "index.html": "/jaeestee/tapis-ui/index.html",
+    "static/css/2.d5e620ed.chunk.css.map": "/jaeestee/tapis-ui/static/css/2.d5e620ed.chunk.css.map",
+    "static/css/main.79706e10.chunk.css.map": "/jaeestee/tapis-ui/static/css/main.79706e10.chunk.css.map",
+    "static/js/2.2be6086f.chunk.js.LICENSE.txt": "/jaeestee/tapis-ui/static/js/2.2be6086f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/jaeestee/tapis-ui/static/media/Cortal-Icons-1.2.a0d8332a.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dddde5aa.js",
+    "static/css/2.d5e620ed.chunk.css",
+    "static/js/2.2be6086f.chunk.js",
+    "static/css/main.79706e10.chunk.css",
+    "static/js/main.805474c1.chunk.js"
+  ]
+}
