@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Button } from 'reactstrap';
 import { Icon } from 'tapis-ui/_common';
-import styles from './SystemToolbar.module.scss';
+import styles from './SystemLayoutToolbar.module.scss';
 import { useLocation } from 'react-router-dom';
-import CreateSystemModal from './CreateSystemModal';
-import DeleteSystemModal from './DeleteSystemModal';
-import UndeleteSystemModal from './UndeleteSystemModal';
+import ShareSystemPublicModal from './ShareSystemPublicModal';
+import UnShareSystemPublicModal from './UnShareSystemPublicModal';
 
 type ToolbarButtonProps = {
   text: string;
@@ -40,7 +39,7 @@ export const ToolbarButton: React.FC<ToolbarButtonProps> = ({
   );
 };
 
-const SystemToolbar: React.FC = () => {
+const SystemLayoutToolbar: React.FC = () => {
   const [modal, setModal] = useState<string | undefined>(undefined);
   const { pathname } = useLocation();
 
@@ -52,31 +51,25 @@ const SystemToolbar: React.FC = () => {
       {pathname && (
         <div className={styles['toolbar-wrapper']}>
           <ToolbarButton
-            text="Create a New System"
-            icon="add"
+            text="Share System Publicly"
+            icon="unlock"
             disabled={false}
-            onClick={() => setModal('createsystem')}
-            aria-label="createSystem"
+            onClick={() => setModal('sharesystempublic')}
+            aria-label="shareSystemPublic"
           />
           <ToolbarButton
-            text="Delete a System"
-            icon="trash"
+            text="UnShare System Publicly"
+            icon="lock"
             disabled={false}
-            onClick={() => setModal('deletesystem')}
-            aria-label="deleteSystem"
-          />
-          <ToolbarButton
-            text="Re-Add a System"
-            icon="add"
-            disabled={false}
-            onClick={() => setModal('undeletesystem')}
-            aria-label="undeleteSystem"
+            onClick={() => setModal('unsharesystempublic')}
+            aria-label="unShareSystemPublic"
           />
 
-          {modal === 'createsystem' && <CreateSystemModal toggle={toggle} />}
-          {modal === 'deletesystem' && <DeleteSystemModal toggle={toggle} />}
-          {modal === 'undeletesystem' && (
-            <UndeleteSystemModal toggle={toggle} />
+          {modal === 'sharesystempublic' && (
+            <ShareSystemPublicModal toggle={toggle} />
+          )}
+          {modal === 'unsharesystempublic' && (
+            <UnShareSystemPublicModal toggle={toggle} />
           )}
         </div>
       )}
@@ -84,4 +77,4 @@ const SystemToolbar: React.FC = () => {
   );
 };
 
-export default SystemToolbar;
+export default SystemLayoutToolbar;
