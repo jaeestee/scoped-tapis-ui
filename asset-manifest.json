@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/scoped-tapis-ui/static/css/main.ffa4e570.chunk.css",
-    "main.js": "/scoped-tapis-ui/static/js/main.9723fbda.chunk.js",
-    "main.js.map": "/scoped-tapis-ui/static/js/main.9723fbda.chunk.js.map",
+    "main.js": "/scoped-tapis-ui/static/js/main.a0a33280.chunk.js",
+    "main.js.map": "/scoped-tapis-ui/static/js/main.a0a33280.chunk.js.map",
     "runtime-main.js": "/scoped-tapis-ui/static/js/runtime-main.f6d00b17.js",
     "runtime-main.js.map": "/scoped-tapis-ui/static/js/runtime-main.f6d00b17.js.map",
     "static/css/2.d5e620ed.chunk.css": "/scoped-tapis-ui/static/css/2.d5e620ed.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.d5e620ed.chunk.css",
     "static/js/2.6ddecfe6.chunk.js",
     "static/css/main.ffa4e570.chunk.css",
-    "static/js/main.9723fbda.chunk.js"
+    "static/js/main.a0a33280.chunk.js"
   ]
 }
